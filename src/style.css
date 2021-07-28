@@ -1,0 +1,168 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container-ayuda{
+    top: 0px;
+    width: 100%;
+    position: absolute;
+    height: 100vh;
+    display: none;
+}
+.container-login{
+    width: 100%;
+    height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.container-login-sub{
+    width: 60%;
+    height: 60%;
+    background-color: blue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-login-sub input{
+    margin-top: 10px;
+    padding: 10px;
+    width: 80%;
+}
+.container-login-sub h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -10px;
+}
+.container-login-sub button{
+    border: none;
+    margin-top: 1em;
+    padding: 1em;
+    width: 30em;
+    color: white;
+    background-color: black;
+}
+
+
+/* list user */
+
+
+.container-list{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mensaje-invitacion{
+    width: 60%;
+    height: 10%;
+    background-color: pink;
+    color: white;
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+}
+.container-list-sub{
+    width: 50%;
+    height: 40%;
+    background-color:blue;
+    display: flex;
+    align-items: center;
+}
+ul,ol{
+    list-style: none;
+}
+.list{
+    width: 100%;
+    height: 100%;
+    overflow:hidden; overflow-y:scroll;
+}
+.list li{
+  
+    color: white;
+    margin-left: 4%;
+    padding: 10px;
+    display: flex;
+}
+.container-user{
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    height: 50px;
+   
+}
+.container-user button{
+    background-color: pink;
+    padding: 6px;
+    border: none;
+}
+.list li button{
+    margin-left: 5%;
+}
+
+.container-padre-home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info-users-conected{
+    width: 50%;
+    height: 10%;
+   
+}
+.container-tablero{
+    margin-top: 2%;
+    width: 30%;
+    height: 50%;
+  
+}
+.container-username{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container-fila-one{
+    width: 100%;
+    height: 92px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.container-fila-one button{
+    width: 100%;
+}
+.container-fila-two{
+    width: 100%;
+    height: 92px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+.container-fila-two button{
+    width: 100%;
+}
+.container-fila-three{
+    width: 100%;
+    height: 92px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+.container-fila-three button{
+    width: 100%;
+}
