@@ -1,4 +1,6 @@
-
+body {
+    background: #c1d6df;/*nuevo*/
+}
 *{
     padding: 0px;
     margin: 0px;
@@ -11,71 +13,109 @@
     display: none;
 }
 .container-login{
-    width: 100%;
+    width: 90%;
     height: 100vh;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
 }
 .container-login-sub{
     width: 60%;
     height: 60%;
-    background-color: blue;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /*nuevo 30-34*/
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.30);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.18);
 }
 .container-login-sub input{
     margin-top: 10px;
     padding: 10px;
-    width: 80%;
+    font-family: Arial;
+    border-radius: 20px;
+    border: none;
+    width: 60%;
+    height: 30px;
+
 }
 .container-login-sub h2{
-    font-family: Arial, Helvetica, sans-serif;
+    color: #717171;
     margin-top: -10px;
+    font-family: a Alloy Ink;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 45px;
+    left: 200px;
 }
 .container-login-sub button{
     border: none;
     margin-top: 1em;
     padding: 1em;
-    width: 30em;
+    width: 60%; /*nuevo 60-65*/
+    border-radius: 20px;
+    background: #8598DD;
+    font-family: Arial;
+    fon-width: bold;
     color: white;
-    background-color: black;
+    font-size: 15px;
 }
 
-
 /* list user */
-
 
 .container-list{
     position: absolute;
     top: 0px;
     width: 100%;
     height: 100vh;
-    background-color: white;
+    background-color: #B7BBF8;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
 }
+.container-list h2 {/*nuevo*/
+    font-family: Arial Rounded MT;
+    color: #8598DD;
+}
 .mensaje-invitacion{
-    width: 60%;
+    width: 30%;
     height: 10%;
-    background-color: pink;
+    background-color: #B7BBF8;
     color: white;
     display: none;
     justify-content: space-around;
     align-items: center;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.18);
+}
+.mensaje-invitacion>button {/*nuevo*/
+    background: #8598DD;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    height: 40px;
 }
 .container-list-sub{
     width: 50%;
     height: 40%;
-    background-color:blue;
     display: flex;
     align-items: center;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.30);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.18);
 }
 ul,ol{
     list-style: none;
@@ -86,7 +126,6 @@ ul,ol{
     overflow:hidden; overflow-y:scroll;
 }
 .list li{
-  
     color: white;
     margin-left: 4%;
     padding: 10px;
@@ -99,12 +138,15 @@ ul,ol{
     justify-content: space-around;
     width: 90%;
     height: 50px;
-   
 }
 .container-user button{
-    background-color: pink;
     padding: 6px;
     border: none;
+    background: #8598DD;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
 }
 .list li button{
     margin-left: 5%;
@@ -118,16 +160,23 @@ ul,ol{
     justify-content: center;
     align-items: center;
 }
+.container-padre-home>h2{/*nuevo*/
+    font-family: a Alloy Ink;
+    font-size: 50px;
+    font-weight: bold;
+    top: 10px;
+    color: #8598DD;
+}
 .info-users-conected{
     width: 50%;
     height: 10%;
-   
+
 }
 .container-tablero{
     margin-top: 2%;
-    width: 30%;
+    width: 50%;
     height: 50%;
-  
+
 }
 .container-username{
     width: 100%;
@@ -135,6 +184,12 @@ ul,ol{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    /*nuevo 177-181*/
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.30);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.18);
+    font-family: Tahoma;
 }
 .container-fila-one{
     width: 100%;
@@ -145,11 +200,12 @@ ul,ol{
 }
 .container-fila-one button{
     width: 100%;
+
 }
 .container-fila-two{
     width: 100%;
     height: 92px;
-    background-color: red;
+    background-color: green;
     display: flex;
     justify-content: center;
 }
@@ -159,7 +215,7 @@ ul,ol{
 .container-fila-three{
     width: 100%;
     height: 92px;
-    background-color: red;
+    background-color: green;
     display: flex;
     justify-content: center;
 }
